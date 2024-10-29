@@ -1,7 +1,6 @@
 name: Hola Mundo
 
 on:
-
   push:
     branches: [ "develop" ]
   pull_request:
@@ -21,5 +20,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run 
         run: echo "Hola mundo"
+
 
 		
