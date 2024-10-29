@@ -1,0 +1,21 @@
+name: Hola Mundo
+
+on:
+
+  push:
+   branches: [ "develop" ]
+  pull_request:
+   branches: [ "develop" ]
+	
+  workflow_dispatch:
+
+jobs:
+  Hola_Mundo:
+   runs-on: ubuntu-latest
+   steps:
+    - uses: actions/checkout@v4
+    - name: Run
+      run: echo Hola mundo
+      
+		
+		
